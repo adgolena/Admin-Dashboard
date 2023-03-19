@@ -1,0 +1,23 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    max-height: 100vh;
+    display: grid;
+    grid-template: 1fr 6fr /1fr 4fr;
+    font-family: "Roboto", sans-serif;
+  }
+  /* header styles */
+  header {
+    background: white;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 7fr 1fr 1fr 1fr;
+    background-color: aqua;
+  }
+
+  ul{
+    list-style: none;
+  }
